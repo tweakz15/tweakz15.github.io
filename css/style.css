@@ -1,0 +1,58 @@
+body{
+    
+    background: linear-gradient( #DA22FF, #9733EE);
+    margin: 0 ;
+    padding: 0 ;
+}
+
+h2{
+    top: 100%;
+}
+
+#clock{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 60px;
+    font-family: 'Fugaz One' ;
+    letter-spacing: 7px;
+}
+  
+#particles-js{
+    height: 100vh;
+  }
+
+#typed-strings{
+    position: absolute;
+    text-align: center;
+    color: azure;
+    top: 40%;
+    width: 100%;
+    font-family: 'Caveat';
+}
+
+@media only screen and (max-width: 600px) {
+    #typed-strings {
+      font-size: 12px;
+      font-family: 'Caveat';
+      top: 44%;
+    }
+
+    #clock{
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        color: white;
+        font-size: 40px;
+        font-family: 'Fugaz One' ;
+        letter-spacing: 7px;
+    }
+
+    h2{
+        top: 90%;
+    }
+  }
+  
