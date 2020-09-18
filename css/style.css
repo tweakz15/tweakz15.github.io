@@ -15,8 +15,9 @@ h2{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: white;
+    font-weight: bold;
     font-size: 60px;
-    font-family: 'Rambla' ;
+    font-family: 'Oswald' ;
     letter-spacing: 7px;
 }
   
@@ -30,7 +31,7 @@ h2{
     color: azure;
     top: 40%;
     width: 100%;
-    font-family: 'Rambla';
+    font-family: 'Oswald';
 }
 
 @media only screen and (max-width: 600px) {
