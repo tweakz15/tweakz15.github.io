@@ -1,6 +1,6 @@
 body{
     
-    background: linear-gradient( #FFA9BF, #8483FF);
+    background: linear-gradient( #0F2027, #203A43, #2C5364);
     margin: 0 ;
     padding: 0 ;
 }
@@ -16,7 +16,7 @@ h2{
     transform: translateX(-50%) translateY(-50%);
     color: white;
     font-size: 60px;
-    font-family: 'Fugaz One' ;
+    font-family: 'Rambla' ;
     letter-spacing: 7px;
 }
   
@@ -30,7 +30,7 @@ h2{
     color: azure;
     top: 40%;
     width: 100%;
-    font-family: 'Caveat';
+    font-family: 'Rambla';
 }
 
 @media only screen and (max-width: 600px) {
