@@ -1,12 +1,13 @@
 body{
     
-    background: linear-gradient( #0F2027, #203A43, #2C5364);
+    background: linear-gradient( #200122, #6f0000);
     margin: 0 ;
     padding: 0 ;
 }
 
-h2{
-    top: 100%;
+h1{
+    font-size:50px ;
+    font-family: 'Caveat', cursive;
 }
 
 #clock{
@@ -15,10 +16,13 @@ h2{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: white;
-    font-weight: bold;
-    font-size: 60px;
-    font-family: 'Oswald' ;
+    font-size: 70px;
+    font-family: 'Fugaz One' ;
     letter-spacing: 7px;
+}
+
+#typed{
+    font-size: 40px;
 }
   
 #particles-js{
@@ -31,7 +35,7 @@ h2{
     color: azure;
     top: 40%;
     width: 100%;
-    font-family: 'Oswald';
+    font-family: 'Caveat', cursive;
 }
 
 @media only screen and (max-width: 600px) {
